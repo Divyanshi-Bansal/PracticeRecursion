@@ -8,6 +8,6 @@ public class FibonacciExecution {
         int m= scanner.nextInt();
         int n= scanner.nextInt();
         Fibonacci fibonacci = new Fibonacci();
-        fibonacci.fibo(m,n);
+        System.out.println(fibonacci.fibo(m,n));
     }
 }
